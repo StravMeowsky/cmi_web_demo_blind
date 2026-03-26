@@ -1,0 +1,279 @@
+{
+  "title": "CMI Test-Set Audio Showcase",
+  "datasets": [
+    {
+      "id": "cmi-pref-pseudo",
+      "label": "cmi-pref-pseudo",
+      "description": "",
+      "samples": [
+        {
+          "dataset": "cmi-pref-pseudo",
+          "slug": "cmi-pref-pseudo-03",
+          "title": "Dark Ritual Techno",
+          "comparison_id": 42946,
+          "prompt": "160BPM HARD DARK RITUAL OCCULT BOSCHKA RUSSIA TECHNO , HELL SOUND , MONK MANTRA CHOR",
+          "lyrics_excerpt": "",
+          "models": {
+            "a": "musicldm",
+            "b": "sao-small"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "scores": {
+            "mq_a": 7.0,
+            "mq_b": 3.5,
+            "if_a": 8.5,
+            "if_b": 2.0
+          },
+          "assets": {
+            "a": "cmi-pref-pseudo/4e10d950882271effcc9ecb7b297cec4.mp3",
+            "b": "cmi-pref-pseudo/4e36cd0d111f58d988bddcf3f48b5e6d.mp3",
+            "ref": ""
+          }
+        },
+        {
+          "dataset": "cmi-pref-pseudo",
+          "slug": "cmi-pref-pseudo-04",
+          "title": "Intimate Lofi Chillhop",
+          "comparison_id": 57153,
+          "prompt": "intimate lofi, slow tempo, chillhop, Lo-fi beats with vinyl crackle, cozy, slow swung beats",
+          "lyrics_excerpt": "",
+          "models": {
+            "a": "musicldm",
+            "b": "audioldm2-music"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "scores": {
+            "mq_a": 8.5,
+            "mq_b": 6.5,
+            "if_a": 9.0,
+            "if_b": 6.0
+          },
+          "assets": {
+            "a": "cmi-pref-pseudo/4e3a12d37d54773285a999150f1593b2.mp3",
+            "b": "cmi-pref-pseudo/4d6105c966e29a5db64abe06204f9acb.mp3",
+            "ref": ""
+          }
+        },
+        {
+          "dataset": "cmi-pref-pseudo",
+          "slug": "cmi-pref-pseudo-01",
+          "title": "Airplane Flight Soundtrack",
+          "comparison_id": 57797,
+          "prompt": "An exciting and thrilling 3-minute airplane flight video soundtrack.",
+          "lyrics_excerpt": "",
+          "models": {
+            "a": "sao",
+            "b": "audioldm2-music"
+          },
+          "preferences": {
+            "musicality": "model_b",
+            "alignment": "model_b"
+          },
+          "scores": {
+            "mq_a": 3.0,
+            "mq_b": 7.5,
+            "if_a": 2.0,
+            "if_b": 8.0
+          },
+          "assets": {
+            "a": "cmi-pref-pseudo/5b1d95cd627ae46c0a82be93dfd2854e.mp3",
+            "b": "cmi-pref-pseudo/5c0e3f06301e4aaf82f3b99417163853.mp3",
+            "ref": ""
+          }
+        },
+        {
+          "dataset": "cmi-pref-pseudo",
+          "slug": "cmi-pref-pseudo-02",
+          "title": "Rhythmic Jazz Upbeat",
+          "comparison_id": 87872,
+          "prompt": "rhythmic jazz upbeat",
+          "lyrics_excerpt": "",
+          "models": {
+            "a": "audioldm2-music",
+            "b": "musicgen-medium"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "scores": {
+            "mq_a": 8.5,
+            "mq_b": 5.5,
+            "if_a": 9.0,
+            "if_b": 4.0
+          },
+          "assets": {
+            "a": "cmi-pref-pseudo/cf53c282419a0afa2dc88b3934f775de.mp3",
+            "b": "cmi-pref-pseudo/015ac623ea7924e484e2f136538fd6f9.mp3",
+            "ref": ""
+          }
+        },
+        {
+          "dataset": "cmi-pref-pseudo",
+          "slug": "cmi-pref-pseudo-05",
+          "title": "J-pop Jazz Rock",
+          "comparison_id": 110977,
+          "prompt": "J-pop, jazz, rock, trumpet melody, background guitar, upbeat, smooth, big band, thriller, funk, scratch, drum beats",
+          "lyrics_excerpt": "",
+          "models": {
+            "a": "acestep",
+            "b": "musicgen-medium"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "scores": {
+            "mq_a": 8.5,
+            "mq_b": 5.5,
+            "if_a": 9.0,
+            "if_b": 4.0
+          },
+          "assets": {
+            "a": "cmi-pref-pseudo/1d87b266d9a14fd4f14a543583fb4d9f.mp3",
+            "b": "cmi-pref-pseudo/1f21d8002513a0748803f50ea13bb510.mp3",
+            "ref": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmi-pref",
+      "label": "cmi-pref",
+      "description": "",
+      "samples": [
+        {
+          "dataset": "cmi-pref",
+          "slug": "cmi-pref-01",
+          "title": "Magical Girl Rock",
+          "prompt": "Anime Songs for Japanese 80s Magical Girl, rock, female vocal, upbeat, positive, groovy, passionate",
+          "lyrics_excerpt": "[Intro]\n\n[Verse1]\nI was just a girl, with dreams so sweet\nWishing on a star, a magical feat\nA tiny friend, from a distant land\nGave me a gift, a magic wand\n\n[Chorus]\nNow I'm a magical girl, soaring high\nWith a twinkle in my eye, I'll touch the sky\nTransforming with a spell, a brand new me\nAdventures await, as destiny decrees\n\n[Verse2]\nI look up to him, with a heart so pure\nA guiding light, forever to endure\nWith every spell, I'll learn and grow\nDiscovering myself, as I let my spirit flow\n\n[Chorus]\nNow I'm a magical girl, soaring high\nWith a twinkle in my eye, I'll touch the sky\nTransforming with a spell, a brand new me\nAdventures await, as destiny decrees\n\n[Bridge]\nMagic is a mystery, a wonder to behold\nA world of enchantment, stories yet untold\nI'll face my fears, and chase my dreams\nWith courage and hope, it all seems\n\n[Chorus]\nNow I'm a magical girl, soaring high\nWith a twinkle in my eye, I'll touch the sky\nTransforming with a spell, a brand new me\nAdventures await, as destiny decrees\n\n[Outro]\n'Cause I'm a magical girl, so bold!\nWith magic in my heart, my story unfolds\n\n[Coda]",
+          "feedback_excerpt": "A follows the rock style specified in the prompt, but the vocal is not female. B, on the other hand, uses a female vocal but is not rock—it's closer to jazz. As a result, both have issues with instruction following. In terms of musical quality, B has more balanced audio mixing.",
+          "models": {
+            "a": "songgen",
+            "b": "yue"
+          },
+          "preferences": {
+            "musicality": "model_b",
+            "alignment": "model_a"
+          },
+          "scores": {
+            "music_conf": 2.0,
+            "align_conf": 1.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/ccb134170062.mp3",
+            "b": "cmi-pref/gen-audio/5ae4a865699f.mp3",
+            "ref": ""
+          }
+        },
+        {
+          "dataset": "cmi-pref",
+          "slug": "cmi-pref-02",
+          "title": "Trap Aggressive Bass-heavy",
+          "prompt": "trap aggressive bass-heavy",
+          "lyrics_excerpt": "[Verse]\nQuartiere infuocato, giorni di sfida,\nFuggi dalla sirena, resta in vita.\nTrafficante d'incubi, sogni in combustione,\nNuovo giorno in strada, cercando redenzione.\n\n[Verse 2]\nVolano colpi, schizzano vialetti,\nSangue su asfalto, cercando riflessi.\nRagazzi in guerra, pronti per rivalsa,\nFino all'ultimo respiro, senza una pausa.\n\n[Chorus]\nNella notte buia del quartiere,\nVecchi amici diventano guerrieri.\nSogni spezzati da colpi di magnum,\nMa nessuno si arrende, cuore di platino.\n\n[Verse 3]\nMascherine nere, passi silenziosi,\nOcchi aperti, cuori pericolosi.\nPatto col diavolo, regole spezzate,\nSolo i più forti reggono queste strade.\n\n[Bridge]\nSirene urlanti, vite in bilico,\nScelte fatali, destino critico.\nPatti di sangue, nessuna fiducia,\nLa notte s'infittisce, paura e astuzia.\n\n[Chorus]\nNella notte buia del quartiere,\nVecchi amici diventano guerrieri.\nSogni spezzati da colpi di magnum,\nMa nessuno si arrende, cuore di platino.",
+          "feedback_excerpt": "I prefer B for its instruction following. A is missing bass-heaviness. However, overall the quality of music is better in A.",
+          "models": {
+            "a": "acestep",
+            "b": "songgen"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_b"
+          },
+          "scores": {
+            "music_conf": 5.0,
+            "align_conf": 5.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/3d18f788400a.mp3",
+            "b": "cmi-pref/gen-audio/181882ac83d9.mp3",
+            "ref": ""
+          }
+        },
+        {
+          "dataset": "cmi-pref",
+          "slug": "cmi-pref-03",
+          "title": "Japanese Folk Synth-pop",
+          "prompt": "melodic japanese folk synth-pop",
+          "lyrics_excerpt": "",
+          "feedback_excerpt": "I prefer B because it has more balance mixing quality. A sounds too experimental. Both don't sound like following Japanese style much.",
+          "models": {
+            "a": "sao",
+            "b": "magenta-rt-large"
+          },
+          "preferences": {
+            "musicality": "model_b",
+            "alignment": "model_b"
+          },
+          "scores": {
+            "music_conf": 4.0,
+            "align_conf": 2.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/5edecf7958d0.mp3",
+            "b": "cmi-pref/gen-audio/2c32affd6b2a.mp3",
+            "ref": "cmi-pref/ref-audio/c45ad65677e4.mp3"
+          }
+        },
+        {
+          "dataset": "cmi-pref",
+          "slug": "cmi-pref-04",
+          "title": "Dramatic Intense Hip-hop",
+          "prompt": "dramatic intense hip-hop",
+          "lyrics_excerpt": "[Verse]\nRats in the alley, shadows got 'em stumblin'\nCloak of the night, got the whole town mumbin'\nTeeth sharp, got that cheese in their sight\nRat King rules, perched high on the fight\n\n[Verse 2]\nTwo brave souls, backpack full of TNT\nWhisper plans, gotta take down the colony\nSneakin' through the pipes, hear the murmur underground\nGrit between their teeth, hearts poundin' like a drum sound\n\n[Chorus]\nRat King reign, bombs away\nEchoes in the sewers, night turns to day\nRodent army scurries, kingdom starts to sway\nStanding tall, these heroes, blowing fear away\n\n[Verse 3]\nRat King's throne, built on trash and grime\nRegal crown of tin, ruling over slime\nHierarchy of filth, kingdom in disguise\nTwo heroes step up, bombs ready to surprise\n\n[Bridge]\nTicking time, crimson wires glimmering\nBravery cold as ice, no one trembling\nRat eyes wide, shadows closing near\nExplosion's about to burst, ending all the fear\n\n[Chorus]\nRat King reign, bombs away\nEchoes in the sewers, night turns to day\nRodent army scurries, kingdom starts to sway\nStanding tall, these heroes, blowing fear away",
+          "feedback_excerpt": "I prefer B in its instruction following. B matches the style prompt (hiphop) better. I slightly prefer A in its music quality since it has more consistent musical structure than A.",
+          "models": {
+            "a": "acestep",
+            "b": "yue"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_b"
+          },
+          "scores": {
+            "music_conf": 2.0,
+            "align_conf": 4.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/3f7bd89d74dd.mp3",
+            "b": "cmi-pref/gen-audio/cee22612cebe.mp3",
+            "ref": "cmi-pref/ref-audio/943433ffef97.mp3"
+          }
+        },
+        {
+          "dataset": "cmi-pref",
+          "slug": "cmi-pref-05",
+          "title": "90s Rap",
+          "prompt": "90s rap",
+          "lyrics_excerpt": "[Verse 1]\nYou’ve been knocked down, but you rise even higher  \nPain tried to break you, but it fueled your fire  \nFailures aren’t endings; they’re steps to your crown  \nYou’re a warrior—nothing will keep you down\n\nThe world may hit hard, but you hit back stronger  \nYou’ve come too far to give up any longer  \nEvery setback’s a lesson, every scar’s your proof  \nYou’re unbreakable, now stand in your truth\n\n[Chorus]\nYou are unstoppable, born to succeed  \nFrom the ashes you rise, unchained and freed  \nThe power’s within, it’s your time to claim  \nYou’re the master of your life, forever untamed\n\n[Verse 2]\nYou’ve turned pain into strength, every fall’s a gain  \nThe struggle built you, now you own your lane  \nDon’t fear the storm, you are the thunder  \nSuccess is your destiny, don’t let them wonder\n\nEach trial made you stronger, no more holding back  \nYou’re destined for greatness, stay on the attack  \nThe future is yours, let your spirit soar  \nYou’ve conquered the darkness—now shine evermore!\n\n[Chorus]\nYou are unstoppable, born to succeed  \nFrom the ashes you rise, unchained and freed  \nThe power’s within, it’s your time to claim  \nYou’re the master of your life, forever untamed",
+          "feedback_excerpt": "Both A and B fail to adhere to the “90s rap” prompt, since neither features rap vocals. Musically, A is composed of overly experimental, artificial-sounding elements that lack cohesion, while B is limited to a digital-voice a cappella without accompaniment, making both unsatisfactory.",
+          "models": {
+            "a": "songgen",
+            "b": "yue"
+          },
+          "preferences": {
+            "musicality": "model_b",
+            "alignment": "model_b"
+          },
+          "scores": {
+            "music_conf": 1.0,
+            "align_conf": 1.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/fa5ac71befdc.mp3",
+            "b": "cmi-pref/gen-audio/5d560bf91e14.mp3",
+            "ref": "cmi-pref/ref-audio/1f06be90ec07.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

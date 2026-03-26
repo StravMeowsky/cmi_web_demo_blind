@@ -1,0 +1,11 @@
+__pycache__/
+site/
+
+cmi-pref-test.jsonl
+cmi-pref-pseudo-test.jsonl
+comparison_metadata_test.jsonl
+mapping.json
+sample_unzip.py
+generate_showcase_data.py
+
+pseudo_zips/

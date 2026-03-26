@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMI Test-Set Audio Showcase</title>
+    <link rel="stylesheet" href="styles.css?v=11" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Anonymous Demo Page</p>
+        <h1>CMI samples</h1>
+        <p class="lead">
+          A lightweight static showcase for selected audio comparisons from
+          <code>cmi-pref</code> and
+          <code>cmi-pref-pseudo</code>.
+        </p>
+      </section>
+
+      <section id="content" class="content">
+        <p class="loading">Loading sample metadata…</p>
+      </section>
+    </main>
+
+    <template id="dataset-template">
+      <section class="dataset-section">
+        <div class="dataset-header">
+          <h2></h2>
+          <p class="section-description"></p>
+        </div>
+        <div class="sample-grid"></div>
+      </section>
+    </template>
+
+    <template id="sample-template">
+      <article class="sample-card">
+        <div class="sample-head">
+          <div>
+            <p class="sample-tag"></p>
+            <p class="prompt-label">Prompt</p>
+          </div>
+          <div class="badge-row"></div>
+        </div>
+        <p class="prompt"></p>
+        <p class="excerpt-label"></p>
+        <p class="excerpt"></p>
+        <div class="audio-blocks"></div>
+        <p class="sample-scores-label"></p>
+        <p class="sample-scores"></p>
+      </article>
+    </template>
+
+    <template id="audio-template">
+      <section class="audio-block">
+        <div class="audio-meta">
+          <strong></strong>
+          <span></span>
+        </div>
+        <audio controls preload="none"></audio>
+        <p class="audio-scores"></p>
+      </section>
+    </template>
+
+    <script src="app.js?v=11"></script>
+  </body>
+</html>
