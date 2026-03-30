@@ -274,6 +274,260 @@
           }
         }
       ]
+    },
+    {
+      "id": "cmi-pref-prediction-agree",
+      "label": "Prediction Matches Human Labels",
+      "description": "",
+      "samples": [
+        {
+          "dataset": "cmi-pref-prediction-agree",
+          "slug": "cmi-pref-prediction-agree-01",
+          "title": "swing big band",
+          "prompt": "swing big band",
+          "lyrics_excerpt": "[Verse]\nG-g-guys ar-are l-l-laughin h-hard\nEv-ev-every t-time I t-t-try\nEv-ev-even my d-d-dog is s-s-smirking\nWi-with that l-look in his eye\n\n[Verse 2]\nTry-t-trying to ch-ch-chat with S-Susan\nSwe-sweating b-b-bullets of n-n-nerve\nS-s-stumbling th-through a s-s-sentence\nI'm-m-m starting t-t-to swerve\n\n[Chorus]\nOh h-heaven's h-help th-this t-t-tongue of m-mine\nEv-every w-word is q-quite a f-f-fight\nSo l-let's sw-swing through th-th-thicks and th-thins\nEv-every t-turn it's a l-laughing night\n\n[Verse 3]\nI a-asked for a f-f-fizzy c-cola\nEnd-ended up w-with a s-soda float\nBar-bartender's g-g-getting i-i-impatient\nTh-things are going qu-qu-quote\n\n[Verse 4]\nBr-brushed my t-t-teeth today t-t-twice\nFa-faster speak in br-breaking news\nW-w-wonder how l-long it t-takes t-train\nA-talking wh-with no ru-rules\n\n[Bridge]\nS-sure it's h-hard t-to kn-know my n-name\nWh-why I d-dance ins-inside my h-head\nEv-e…",
+          "feedback_excerpt": "Instruction following: neither model includes meaningful lyrics, but model A matches the style very well. Music quality: model B is heavily distorted, while model A's accompaniment is clearly more pleasant.",
+          "models": {
+            "a": "acestep",
+            "b": "songgen"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "predictions": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "prediction_scores": {
+            "musicality_a": 3.1875,
+            "musicality_b": -0.27734375,
+            "alignment_a": 2.375,
+            "alignment_b": 0.05810546875
+          },
+          "agreement": {
+            "musicality": true,
+            "alignment": true,
+            "overall": "agree"
+          },
+          "scores": {
+            "music_conf": 5.0,
+            "align_conf": 5.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/e222d576ee70.mp3",
+            "b": "cmi-pref/gen-audio/7a89d9580fa6.mp3",
+            "ref": "cmi-pref/ref-audio/bb800c87778b.mp3"
+          }
+        },
+        {
+          "dataset": "cmi-pref-prediction-agree",
+          "slug": "cmi-pref-prediction-agree-02",
+          "title": "lively sea shanty",
+          "prompt": "lively sea shanty",
+          "lyrics_excerpt": "[Verse]\nOh the ship sets sail at dawn each day\nWith lessons rough and waves of gray\nBut treat your prof with kindness true\nAnd better grades may come to you\n\n[Chorus]\nProfessors be kind if you please\nWith their wisdom there's no tease\nA smile or two can ease the breeze\nAnd help you through the stormy seas\n\n[Verse 2]\nIf lectures seem a harsh man's toil\nSteer your temper don't let it boil\nShow respect and keep it bright\nAnd the journey may feel light\n\n[Chorus]\nProfessors be kind if you please\nWith their wisdom there's no tease\nA smile or two can ease the breeze\nAnd help you through the stormy seas\n\n[Bridge]\nIn the tempest don't you hide\nStand tall with grace be on their side\nA little jest a nod a cheer\nCan turn the tides make skies clear\n\n[Verse 3]\nFor when the exams come crashing down\nYou’ll be thankful you didn’t frown\nYour compass set for brighter days\nWith words of praise you'll find…",
+          "feedback_excerpt": "A has a more distinctive melody and a stronger central theme. Its structure is more coherent, with clearer section changes. The groove is stable, without odd jitter. The instrumentation is richer without feeling cluttered, with better layering and separation. The sound quality is clearer and the dynamics feel more natural. The vocals are clearer and the diction is more natural. Overall, A feels more complete. B has…",
+          "models": {
+            "a": "acestep",
+            "b": "songgen"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "predictions": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "prediction_scores": {
+            "musicality_a": 2.609375,
+            "musicality_b": -0.00531005859375,
+            "alignment_a": 1.703125,
+            "alignment_b": 0.1455078125
+          },
+          "agreement": {
+            "musicality": true,
+            "alignment": true,
+            "overall": "agree"
+          },
+          "scores": {
+            "music_conf": 5.0,
+            "align_conf": 5.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/7656a8ea8154.mp3",
+            "b": "cmi-pref/gen-audio/dd45752ee0a4.mp3",
+            "ref": "cmi-pref/ref-audio/ec909b61bc02.mp3"
+          }
+        },
+        {
+          "dataset": "cmi-pref-prediction-agree",
+          "slug": "cmi-pref-prediction-agree-03",
+          "title": "rhythmic pop vibrant",
+          "prompt": "rhythmic pop vibrant",
+          "lyrics_excerpt": "[Verse]\nLa lluvia cae sin un adiós\nY el sol se esconde tras el dolor\nLa ciudad llora pero yo no\nNadie se muere de amor\n\n[Verse 2]\nEl viento canta una vieja canción\nLos recuerdos flotan en el mar\nLas estrellas se pierden sin razón\nNadie se muere de llorar\n\n[Chorus]\nNadie se muere de amor\nSolo es parte del vivir\nEntre risas y un rencor\nSiempre aprendemos a seguir\n\n[Verse 3]\nEn las calles de esta ciudad\nSe ven mil historias sin final\nUn beso roto\nUna soledad\nNadie se muere de verdad\n\n[Bridge]\nAunque el corazón se parta en dos\nLa vida siempre sigue igual\nCon cicatrices\nPero sin voz\nNadie se queda en el umbral\n\n[Chorus]\nNadie se muere de amor\nSolo es parte del vivir\nEntre risas y un rencor\nSiempre aprendemos a seguir",
+          "feedback_excerpt": "A matches the prompt style well, though it only generates the lyrics correctly for the final chorus. B is overly avant-garde, and its lyrics are mostly gibberish. A lacks clear sectional structure, but B has essentially no structure at all and feels completely erratic.",
+          "models": {
+            "a": "acestep",
+            "b": "yue"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "predictions": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "prediction_scores": {
+            "musicality_a": 1.8359375,
+            "musicality_b": -0.2119140625,
+            "alignment_a": 1.2265625,
+            "alignment_b": 0.306640625
+          },
+          "agreement": {
+            "musicality": true,
+            "alignment": true,
+            "overall": "agree"
+          },
+          "scores": {
+            "music_conf": 5.0,
+            "align_conf": 5.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/d6cde62942dd.mp3",
+            "b": "cmi-pref/gen-audio/8fd730f0f540.mp3",
+            "ref": "cmi-pref/ref-audio/f056ce419fe7.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmi-pref-prediction-disagree",
+      "label": "Prediction Disagrees With Human Labels",
+      "description": "",
+      "samples": [
+        {
+          "dataset": "cmi-pref-prediction-disagree",
+          "slug": "cmi-pref-prediction-disagree-01",
+          "title": "Creeping horror, booming, plodding, thunderous, stormy,",
+          "prompt": "Creeping horror, booming, plodding, thunderous, stormy, synths, bassy, pounding drums, ambient horror",
+          "lyrics_excerpt": "",
+          "feedback_excerpt": "B better captures the horror and slow, plodding qualities in the prompt, and its rhythm is clearer and more musical.",
+          "models": {
+            "a": "musicldm",
+            "b": "magenta-rt-large"
+          },
+          "preferences": {
+            "musicality": "model_b",
+            "alignment": "model_b"
+          },
+          "predictions": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "prediction_scores": {
+            "musicality_a": 1.234375,
+            "musicality_b": 1.0703125,
+            "alignment_a": 1.4453125,
+            "alignment_b": 1.3125
+          },
+          "agreement": {
+            "musicality": false,
+            "alignment": false,
+            "overall": "disagree"
+          },
+          "scores": {
+            "music_conf": 5.0,
+            "align_conf": 5.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/976c27055c1b.mp3",
+            "b": "cmi-pref/gen-audio/37b8920573d8.mp3",
+            "ref": "cmi-pref/ref-audio/2eb3a99fc29d.mp3"
+          }
+        },
+        {
+          "dataset": "cmi-pref-prediction-disagree",
+          "slug": "cmi-pref-prediction-disagree-02",
+          "title": "electric, video game, pop, boy singer",
+          "prompt": "electric, video game, pop, boy singer",
+          "lyrics_excerpt": "[Verse]\nMario in the castle got a hop in his step\nBreaking bricks and blocks never missing a rep\nJumping high reaching for the sky\nGoomba stomping coins a-popping can't deny\n\n[Verse 2]\nFrom pipes to pipes through lands unknown\nFire flowers power up he's in the zone\nTurtles spinning shells won't slow him down\nIn his overalls and cap he's the talk of the town\n\n[Chorus]\nI am Super Mario i can jump anywhere\nFrom the rooftops to the dungeons i don't care\nWith a leap and a bound i'll save the day\nPrincess Peach hold tight on my way\n\n[Bridge]\nWarp zones secrets hidden all around\nUnderground or skies adventure's found\nYoshi's back let's ride to glorious heights\nThrough the lava and ice this plumber fights\n\n[Verse 3]\nBowser's flame won't make me sweat\nEvery challenge every villain i'll never forget\nSpin and twirl grab that shining star\nNo distance too great no quest too far\n\n[Chorus]\nI am Super…",
+          "feedback_excerpt": "B is mostly a mechanical recitation of the lyrics, while A has much better texture, melody, and rhythm, with a much more coherent structure.",
+          "models": {
+            "a": "diffrhythm",
+            "b": "jamify"
+          },
+          "preferences": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "predictions": {
+            "musicality": "model_b",
+            "alignment": "model_b"
+          },
+          "prediction_scores": {
+            "musicality_a": 1.3828125,
+            "musicality_b": 1.5390625,
+            "alignment_a": 0.81640625,
+            "alignment_b": 1.03125
+          },
+          "agreement": {
+            "musicality": false,
+            "alignment": false,
+            "overall": "disagree"
+          },
+          "scores": {
+            "music_conf": 5.0,
+            "align_conf": 5.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/259d911d79e6.mp3",
+            "b": "cmi-pref/gen-audio/841a368c12c3.mp3",
+            "ref": "cmi-pref/ref-audio/e8bab9fe5efe.mp3"
+          }
+        },
+        {
+          "dataset": "cmi-pref-prediction-disagree",
+          "slug": "cmi-pref-prediction-disagree-03",
+          "title": "Rootwork EDM, Electronic, Glitched Synth, Downtempo,",
+          "prompt": "Rootwork EDM, Electronic, Glitched Synth, Downtempo, House",
+          "lyrics_excerpt": "",
+          "feedback_excerpt": "I prefer B because it matches the prompt style better, with steadier drums and a stronger groove.",
+          "models": {
+            "a": "musicldm",
+            "b": "audioldm2-music"
+          },
+          "preferences": {
+            "musicality": "model_b",
+            "alignment": "model_b"
+          },
+          "predictions": {
+            "musicality": "model_a",
+            "alignment": "model_a"
+          },
+          "prediction_scores": {
+            "musicality_a": -0.416015625,
+            "musicality_b": -0.83203125,
+            "alignment_a": 0.1845703125,
+            "alignment_b": -0.240234375
+          },
+          "agreement": {
+            "musicality": false,
+            "alignment": false,
+            "overall": "disagree"
+          },
+          "scores": {
+            "music_conf": 5.0,
+            "align_conf": 5.0
+          },
+          "assets": {
+            "a": "cmi-pref/gen-audio/aec6e700c65f.mp3",
+            "b": "cmi-pref/gen-audio/1303841b82d5.mp3",
+            "ref": ""
+          }
+        }
+      ]
     }
   ]
 }
